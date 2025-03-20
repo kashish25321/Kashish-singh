@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Scholarship Registration Form</title>
+</head>
+    <body bgcolor="White">
+      <h1> Scholarship Registration Form</h1> 
+      <form>
+        <legend><h3>User Personal Information</h3></legend>
+        <label for="Name">Enter your full Name:</label>
+        <input type="text" required placeholder="First Name">
+        <input type="text" required placeholder="Last Name"><br><br>
+
+        <label for="Email">Enter your email:</label>
+        <input type="email" required><br><br>
+
+        <label for="Password">Enter your password:</label>
+        <input type="password" required><br><br>
+
+        <label for="ConfirmPassword">Confirm your password:</label>
+        <input type="password" required><br><br>
+
+        <label for="DOB">Enter your Date of Birth:</label>
+        <input type="date" required><br><br>
+
+        <label>Select your Gender:</label>
+           <div class="gender-group">
+                <input type="radio" name="gender" value="male">
+                <label for="Male">Male</label>
+
+                <input type="radio" name="gender" value="female"required>
+                <label for="Female">Female</label>
+
+                <input type="radio" name="gender" value="other">
+                <label for="other">Others</label>
+           </div><br>
+
+           <label for="Address">Enter your Address:</label>
+           <input type="text" required><br><br>
+
+           <label>Select Your State:</label>
+           <select>
+                <option>Select State</option>
+                <option>Maharashtra</option>
+                <option>West Bengal</option>
+                <option>Punjab</option>
+                <option>Uttar Pradesh</option>
+                <option>Other</option>
+
+           </select><br><br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend><h3>Educational Information:</h3></legend>
+        <label>Select your Branch:</label>
+        <div class="branch-group">
+            <input type="checkbox" name="branch" value="MTech">
+            <label for="MTech">MTech</label>
+
+            <input type="checkbox" name="branch" value="CSE">
+            <label for="Computer Science">Computer Science</label>
+
+            <input type="checkbox" name="branch" value="CSE">
+            <label for="Computer Science (AIML)">Computer Science (AIML)</label>
+
+            <input type="checkbox" name="branch" value="CSE">
+            <label for="Computer Science">Computer Science (DS)</label>
+
+            <input type="checkbox" name="branch" value="CSE">
+            <label for="Computer Science (Cyber Security)">Computer Science (Cyber Security)</label>
+
+            <input type="checkbox" name="branch" value="ETC">
+            <label for="Electronics">Electronics</label>
+
+            <input type="checkbox" name="branch" value="Civil">
+            <label1 for="Civil">Civil</label>
+
+            <input type="checkbox" name="branch" value="Mech">
+            <label for="Mechanical">Mechanical</label>
+
+            <input type="checkbox" name="branch" value="Mech">
+            <label for="Electrical">Electrical</label>
+
+
+        </div><br>
+
+        <label for="SSC">SSC % marks:</label>
+        <input type="text" required><br><br>
+        <label for="HSC">HSC % marks:</label>
+        <input type="text" required><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
